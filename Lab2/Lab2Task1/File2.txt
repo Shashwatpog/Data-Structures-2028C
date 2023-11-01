@@ -1,0 +1,6 @@
+Create a new project. You can name this whatever you like.
+2. Write a program to read from and display the contents of the first 10 lines of a text file.
+It should prompt the user for the name of the file.
+3. Include in the program logic to gracefully handle the case that the file doesn’t exist
+4. Take a screen shot of the output screen to include in your lab report. Include in the
+submission your test files that include at a minimum a file shorter than, exactly, andlonger than 10 lines

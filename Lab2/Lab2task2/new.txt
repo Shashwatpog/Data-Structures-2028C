@@ -1,0 +1,56 @@
+The first lab of CS2028.
+This program will calculate the total sales of
+all the company's divisions.
+Enter the following sales information:
+
+Division 1, Quarter 1: $10
+Division 1, Quarter 2: $10
+Division 1, Quarter 3: $10
+Division 1, Quarter 4: $10
+
+Division 2, Quarter 1: $10
+Division 2, Quarter 2: $10
+Division 2, Quarter 3: $10
+Division 2, Quarter 4: $10
+
+Division 3, Quarter 1: $10
+Division 3, Quarter 2: $10
+Division 3, Quarter 3: $10
+Division 3, Quarter 4: $10
+
+The sales for the company is: $
+Div	Q1	Q2	Q3	Q4
+1	$10	$10	$10	$10	
+2	$10	$10	$10	$10	
+3	$10	$10	$10	$10	
+
+The total sales for the company are: $120
+
+The first lab of CS2028.
+This program will calculate the total sales of
+all the company's divisions.
+Enter the following sales information:
+
+Division 1, Quarter 1: $100
+Division 1, Quarter 2: $100
+Division 1, Quarter 3: $100
+Division 1, Quarter 4: $100
+
+Division 2, Quarter 1: $100
+Division 2, Quarter 2: $100
+Division 2, Quarter 3: $100
+Division 2, Quarter 4: $100
+
+Division 3, Quarter 1: $100
+Division 3, Quarter 2: $100
+Division 3, Quarter 3: $100
+Division 3, Quarter 4: $100
+
+The sales for the company is: $
+Div	Q1	Q2	Q3	Q4
+1	$100	$100	$100	$100	
+2	$100	$100	$100	$100	
+3	$100	$100	$100	$100	
+
+The total sales for the company are: $1200
+

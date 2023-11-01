@@ -1,0 +1,19 @@
+1. Write a lab report including the following information:
+a. A description of the objectives/concepts explored in this assignment including
+why you think they are important to this course and a career in CS and/or
+Engineering. Include screen shot(s) from Task 1 and 2.
+b. Why you selected the file access flag(s) you selected including what access flag(s)
+considered but didn’t use for each of the Tasks.
+c. An explanation of why you designed the class and input file the way you did inTask 3.
+d. What you learned about testing in the 3 Tasks. Did you consider the test cases before you stated, during or after you completed coding?
+2. Include all source code from all Tasks, input and output files, and any special instructions
+to compile and run those programs.
+3. 1) Submit a lab report to Canvas. 2) Package all source code files in a single zip folder and
+submit to Canvas. Please submit the lab report and zip folder separately.
+Lab Grading:
+1. 10% - Lab attendance
+2. 15% - Task 1 has been correctly implemented and meets all requirements.
+3. 20% - Task 2 has been correctly modified and meets all requirements.
+4. 30% - Task 3 has been correctly modified and meets all requirements.
+5. 25% - Lab report contains all required information and is well written.
+If program fails to compile, 0% will be given for that Task.

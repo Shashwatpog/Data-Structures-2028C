@@ -1,0 +1,4 @@
+﻿  lab6_stacks.cpp
+C:\Users\shash\Desktop\DataStructures\lab6_stacks\lab6_stacks.cpp(135,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\shash\Desktop\DataStructures\lab6_stacks\lab6_stacks.cpp(161,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  lab6_stacks.vcxproj -> C:\Users\shash\Desktop\DataStructures\lab6_stacks\x64\Debug\lab6_stacks.exe
