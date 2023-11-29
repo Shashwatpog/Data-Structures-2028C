@@ -7,7 +7,7 @@
 #include "LinkedList.cpp"
 #include "Student.h"
 
-// Sort Function Files
+
 #include "Bubble.h"
 #include "Insertion.h"
 #include "Quick.h"
@@ -19,7 +19,7 @@ typedef chrono::high_resolution_clock Clock;
 
 void MakeArrays(int* arr, int seed, int choice)
 {
-	std::mt19937 mt(seed); // allows for random numbers to be generated above the typical rand max
+	std::mt19937 mt(seed); 
 	std::uniform_real_distribution<double> dist;
 
 	switch (choice) {
@@ -76,7 +76,7 @@ void MakeArrays(int* arr, int seed, int choice)
 	}
 }
 
-// Function to print an array
+
 void PrintArray(int* arr, int n)
 {
 	for (int i = 0; i < n; i++)
@@ -86,7 +86,7 @@ void PrintArray(int* arr, int n)
 	cout << endl;
 }
 
-// print the 2d array that holds the times
+
 void PrintResults(long long arr[7][6])
 {
 	cout << "Time in Nanoseconds" << endl;
@@ -142,7 +142,7 @@ void PrintResults(long long arr[7][6])
 	}
 }
 
-// function to call / time bubble sort
+
 auto Bubble(int* arr, int n)
 {
 	auto t1 = Clock::now();
@@ -151,7 +151,7 @@ auto Bubble(int* arr, int n)
 	return(std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count());
 }
 
-// function to call / time insertion sort
+
 auto Insertion(int* arr, int n)
 {
 	auto t1 = Clock::now();
@@ -160,7 +160,7 @@ auto Insertion(int* arr, int n)
 	return(std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count());
 }
 
-// function to call / time quick sort
+
 auto Quick(int* arr, int n)
 {
 
@@ -170,7 +170,7 @@ auto Quick(int* arr, int n)
 	return(std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count());
 }
 
-// function to call / time merge sort
+
 auto Merge(int* arr, int n)
 {
 	auto t1 = Clock::now();
@@ -180,11 +180,9 @@ auto Merge(int* arr, int n)
 }
 
 
-
-// DRIVER FOR TASK 1
 void main1()
 {
-	// initialize arrays to be sorted
+	
 	int* arr1 = new int[10];
 	int* arr2 = new int[100];
 	int* arr3 = new int[500];
@@ -197,20 +195,21 @@ void main1()
 	int seed = 0;
 	long long averagetime = 0;
 
-	// loop through each array size and call bubble sort 10 times on each size to get an average time for each size
+// bubble sort
+	
 	for (int i = 0; i < 6; i++)
 	{
 		averagetime = 0;
 		switch (i)
 		{
 		case 0:
-			for (int i = 0; i < 11; i++) // each for loop opertes in the same format
+			for (int i = 0; i < 11; i++) 
 			{
-				MakeArrays(arr1, seed, 0); // populate the array with random values to be sorted
-				averagetime += Bubble(arr1, 10); // call the respective sort function one time and add the time to the running count
+				MakeArrays(arr1, seed, 0); 
+				averagetime += Bubble(arr1, 10); 
 				seed++;
 			}
-			results[0][0] = averagetime / 10; // calculate the average and store it in a 2D array
+			results[0][0] = averagetime / 10; 
 			seed = 0;
 			break;
 		case 1:
@@ -269,7 +268,7 @@ void main1()
 		}
 	}
 	cout << endl;
-	// loop through each array size and call insertion sort 10 times on each size to get an average time for each size
+	//insertion sort 
 	for (int i = 0; i < 6; i++)
 	{
 		averagetime = 0;
@@ -341,7 +340,7 @@ void main1()
 		}
 	}
 
-	// loop through each array size and call quick sort 10 times on each size to get an average time for each size
+	//  quick sort 
 	for (int i = 0; i < 6; i++)
 	{
 		averagetime = 0;
@@ -413,7 +412,7 @@ void main1()
 		}
 	}
 
-	// loop through each array size and call merge sort 10 times on each size to get an average time for each size
+	// merge sort
 	for (int i = 0; i < 6; i++)
 	{
 		averagetime = 0;
@@ -486,13 +485,13 @@ void main1()
 	}
 	
 
-	// output results
+	
 	PrintResults(results);
 }
 
 
 int main() {
 	
-	main1(); // run task 1 driver
+	main1(); 
 	return 0;
 }
